@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.carousel-image-size{
+   
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-left: 0;
+    margin-right:0;
+    padding: 0%;
+    position: 69%;
+}
+
+.navbar{
+    background-color: rgb(227, 220, 233);
+    height: 40px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+.navbar-brand {
+    font-weight: 500;
+    color: goldenrod;
+    font-size: 24px;
+    transition: 0.3s;
+}
+.login-button {
+    background-color: rgb(223, 235, 64);
+    color: rgb(2, 17, 8);
+    font-size: 25px;
+    padding: 12px,20px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+.login-button:hover{
+    background-color: rgb(10, 167, 31);
+}
+.navbar-tagler{
+    border: none;
+    font-size: 1.2rem;
+    color: aqua;
+}
+.navbar-tagler:focus{
+    box-shadow: none;
+    outline: none;
+}
+.nav-link{
+    color: rgb(201, 132, 28);
+    font-weight: 500;
+}
+@media {
+    min: width 991px;
+}
+.nav-link:hover,.nov-link.activ{
+    color: rgba(4, 165, 31, 0.918);
+}
+.nav-link::before{
+    content: ;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 2px;
+    background-color:  rgb(226, 230, 4);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+.nav-link:hover::before, .nav-link.active::before{
+    width: 100%;
+    visibility: visible;
+}
+.curosel-ima-size{
+    height: 100vh;
+}
+.hero-section{
+    background: url() no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.hero-section::before{
+    background-color: beige;
+    content: ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.containermt-5{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+    width: auto;
+    height: 100vh;
+    position: relative;
+    margin-left: 0;
+    margin-right:0;
+    padding: 0%;
+    position: 69%;
+
+}
+/*.card .img-fit{
+aspect-ratio: 16/9;
+object-fit: cover;
+}
+@media ( max-with: 100%){
+    .card .img-fit{
+       aspect-ratio: 1.45/1;
+    }
+}
